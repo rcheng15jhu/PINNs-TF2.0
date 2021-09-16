@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scipy = "==1.4.1"
+numpy = "==1.16.2"
+tensorflow = "==2.2.0"
+tensorflow-probability = "==0.10.1"
+tqdm = "==4.34.0"
+pyDOE = "==0.3.8"
+ipykernel = "*"
+pydot-ng = "*"
+matplotlib = "==3.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
